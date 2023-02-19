@@ -20,10 +20,7 @@ class UsersController < ApplicationController
       else
         redirect_to("/user_sign_in", { :alert => "Wrong password"})
       end
-
-
     # if not, redirect back to sign in form
-
     #if so, set the cookie
     # redirect to homepage
     end
